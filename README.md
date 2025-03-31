@@ -1,9 +1,11 @@
 # fly-uptime-kuma
 
+Original creator: https://github.com/lubien/fly-uptime-kuma
+
 To host uptime kuma on Fly.io:
 
 ```
-fly launch --from https://github.com/lubien/fly-uptime-kuma.git
+fly launch --from https://github.com/tqn-org/fly-uptime-kuma.git
 ```
 
 When prompted, edit the app name. A 1GB volume will be created on deploy.
